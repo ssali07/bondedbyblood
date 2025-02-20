@@ -29,7 +29,7 @@ const Contact = () => {
     }
 
     // Submit the form (you can integrate the Formspree API here)
-    fetch('https://formspree.io/f/mqknyzqo', {
+    fetch('https://formspree.io/f/xnnjwjdp', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -22,7 +22,12 @@ function LocateDonor() {
       range,
     };
     console.log("Search Data:", formData);
-    alert("Search submitted! Check the console for details.(backend in progress)");
+    alert("Search submitted! .(backend integration in progress...)");
+    setQueryType(null);
+    setLocation(null);
+    setOrgan(null);
+    setRange(null);
+    setBloodGroup(null);
     // Add API integration or further logic here.
   };
 
