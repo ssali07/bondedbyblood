@@ -1,0 +1,112 @@
+/* General form styling */
+.contact-form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form heading styling */
+  .contact-form-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #bf0000; /* Red color similar to the locate donor section */
+  }
+  
+  /* Row styling for input fields */
+  .row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
+  
+  /* Input and textarea fields styling */
+  .contactform-text {
+    width: 95%;
+    padding: 0.75rem;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Input focus styling */
+  .contactform-text:focus {
+    border-color: #bf0000; /* Red focus border color */
+    outline: none;
+  }
+  
+  /* Button styling */
+  .contactform-btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #bf0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .contactform-btn:hover {
+    background-color: #a30000;
+  }
+  
+  /* Placeholder styling */
+  .contactform-text::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  /* Form submission status styling */
+  .form-status {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .form-status.success {
+    color: #28a745; /* Green for success */
+  }
+  
+  .form-status.error {
+    color: #dc3545; /* Red for error */
+  }
+  
+  /* Media Queries for responsiveness */
+  
+  /* Tablet view (portrait) and above */
+  @media (max-width: 768px) {
+    .contact-form-container {
+      padding: 1.25rem;
+    }
+  
+    .contactform-text,
+    .contactform-btn {
+      font-size: 0.95rem;
+    }
+  }
+  
+  /* Mobile view */
+  @media (max-width: 480px) {
+    .contact-form-container {
+      padding: 1rem;
+    }
+  
+    .contactform-text,
+    .contactform-btn {
+      font-size: 0.9rem;
+      padding: 12px;
+    }
+  
+    .form-status {
+      font-size: 14px;
+    }
+  }
+  
