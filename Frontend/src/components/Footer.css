@@ -1,0 +1,17 @@
+.footer {
+    background-color: #bf0000; /* Bold red background to match the theme */
+    color: white; /* Text color for contrast and readability */
+    text-align: center; /* Center-align the text */
+    padding: 1rem; /* Add padding for spacing */
+    font-size: 0.9rem; /* Slightly smaller font size for a footer */
+    position: relative;
+    bottom: 0; /* Position at the bottom of the viewport */
+    width: 100%; /* Ensure the footer spans the full width */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove default margins */
+    font-family: Arial, sans-serif; /* Clean, modern font */
+  }
+  
